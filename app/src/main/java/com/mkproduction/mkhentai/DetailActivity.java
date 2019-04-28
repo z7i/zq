@@ -120,7 +120,7 @@ public class DetailActivity extends AppCompatActivity implements IFetchData {
             //GET ABSOLUTE URL FOR IMAGE
             String fullImage = noScript
                     .replace("t.", ".")
-                    .replace("//t.nhentai.net", "//i.bakaa.me");
+                    .replace("https://t.nhentai.net", "https://i.bakaa.me");
             manga.addImage(fullImage);
             manga.addThumnail(noScript);
         }
